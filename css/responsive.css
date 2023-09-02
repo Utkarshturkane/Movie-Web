@@ -1,0 +1,40 @@
+@media (max-width:576px) {
+
+    .movie-list-container .cards-container {
+        grid-template-columns: 200px;
+    }
+
+    .search-movie-container form input {
+        width: 80%;
+    }
+
+    .square-layout-container {
+        grid-template-columns: auto;
+    }
+
+
+
+}
+
+@media (max-width: 768px) and (min-width: 577px) {
+
+    .movie-list-container .cards-container {
+        grid-template-columns: 200px 200px;
+        column-gap: 30px;
+        row-gap: 0px;
+    }
+
+     .search-movie-container form input {
+        width: 50%;
+    }
+
+    .square-layout-container {
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .square-layout-container {
+        grid-template-columns: auto;
+    }
+}

@@ -1,0 +1,86 @@
+.cards-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.movie-list-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+.footer-cotainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-cotainer h3 {
+    color: white;
+}
+
+.search-movie-container form input {
+    width: 25%;
+}
+
+/* Search Movies Page Css */
+
+.square-layout {
+    position: relative;
+}
+
+.square-layout .square-text {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+
+.square-layout-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    justify-content: center;
+}
+
+.square-layout-container .square-layout .square-image img {
+    filter: brightness(0.5);
+}
+
+.navbar{
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    right: 0px;
+    left: 0px;
+}
+
+.slick-prev {
+    left: 10px !important;
+    z-index: 1 !important;
+    background: red !important;
+    border-radius: 50% !important;
+    height: 50px !important;
+    width: 50px !important;
+}
+
+
+.slick-next {
+    right: 10px !important;
+    background: red !important;
+    border-radius: 50% !important;
+    height: 50px !important;
+    width: 50px !important;
+}
